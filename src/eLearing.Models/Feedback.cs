@@ -9,7 +9,7 @@ namespace eLearing.Models
         public Course Course { get; set; }
         public User User { get; set; }
 
-        public ushort Rating { get; set; }
+        public byte Rating { get; set; }
         public List<string> Improvements { get; set; }
         public List<string> Appreciations { get; set; }
     }
